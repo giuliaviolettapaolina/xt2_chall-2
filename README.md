@@ -1,4 +1,4 @@
-# xt2_chall-2
+# XT2 Challenge 2
 
 IxD & Technology 2 - challenge 2
 

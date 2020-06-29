@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*
+font-family: 'Patua One', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fugaz One', cursive;
+font-family: 'Paytone One', sans-serif;
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  #flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+
+  }
+
+  #moment {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #moment div {
+    text-align: left;
+  }
+
+  #flexContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #zon_maan {
+    background-color: #ffa500;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+    ;
+  }
+
+  #datum {
+    font-size: 1em;
+  }
+
+  #tijd {
+    font-size: 2em;
+  }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 999px) {
+
+  #flexContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+
+  }
+
+  #flexContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #moment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #moment div {
+    text-align: left;
+  }
+
+  #zon_maan {
+    background-color: #ffa500;
+    width: 230px;
+    height: 230px;
+    border-radius: 120px;
+    margin-bottom: 50px;
+  }
+
+  #datum {
+    padding-left: 15px;
+    font-size: 2em;
+  }
+
+  #tijd {
+    font-size: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  #flexContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+
+  }
+
+  #moment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #moment div {
+    text-align: left;
+  }
+
+  #flexContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #zon_maan {
+    background-color: #ffa500;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 20px;
+  }
+
+  #datum {
+    padding-left: 15px;
+    font-size: 2em;
+  }
+
+  #tijd {
+    font-size: 7em;
+  }
+
+}
